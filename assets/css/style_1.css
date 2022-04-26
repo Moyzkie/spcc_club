@@ -1,0 +1,50 @@
+
+
+.card{
+    margin: 10px;
+    left: 15px;
+    justify-content: space-between;
+    box-shadow:2px 2px 15px rgb(25, 115, 250);
+    flex-direction: row;
+    height: 300px;
+}
+
+.card .card-img-top{
+    width: 286px;
+    height: 102px;
+   
+   
+}
+.card .rounde{
+    border-radius: 50%;
+    width: 100px; 
+    height: 100px;
+    top:-50px;
+    left:11rem;
+    position: relative;
+    box-shadow: 3px 3px 10px #585858;
+}
+.card-title{
+   position: relative;
+   top: -115px;
+}
+
+.card-body{
+    border-top: 1px solid rgb(231, 229, 229) ;
+}
+.d-flex{
+    flex-flow:wrap;
+    justify-content:stretch;
+}
+.btns{
+    margin: 10px;
+    position: relative;
+    top: -30px;
+    left: 10px;
+}
+
+.footer-dark {
+    padding: 50px 0;
+    color: #f0f9ff;
+    background-color: rgb(25, 115, 250);
+}
